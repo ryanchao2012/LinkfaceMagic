@@ -1,1 +1,1 @@
-# linkface_magic
+# LinkfaceMagic
