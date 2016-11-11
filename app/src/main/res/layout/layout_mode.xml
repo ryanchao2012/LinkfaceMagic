@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:padding="5dp"
+    android:id="@+id/tmpl_mode"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.17">
+        <TextView
+            android:id="@+id/tvNameInMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:layout_gravity="end"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1">
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_height="fill_parent"
+                android:id="@+id/ibtnHomeInMode"
+                android:layout_gravity="start"
+                android:background="@color/colorTransparent"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"/>
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical"-->
+            <!--android:weightSum="1">-->
+    <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.43">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.11"
+                        android:id="@+id/rlRbtnOffset" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.9">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.6">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
+
+                                    <ImageButton
+                                        android:layout_width="0dp"
+                                        android:layout_weight="@dimen/ibtn_mode_width_weight"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/colorTransparent"
+                                        android:id="@+id/rbtnMode1" />
+                                    <RelativeLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="@dimen/ibtn_mode_space_width_weight">
+                                    </RelativeLayout>
+
+                                    <ImageButton
+                                        android:layout_width="0dp"
+                                        android:layout_weight="@dimen/ibtn_mode_width_weight"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/colorTransparent"
+                                        android:id="@+id/rbtnMode2" />
+                                    <RelativeLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="@dimen/ibtn_mode_space_width_weight">
+                                    </RelativeLayout>
+
+                                    <ImageButton
+                                        android:layout_width="0dp"
+                                        android:layout_weight="@dimen/ibtn_mode_width_weight"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/colorTransparent"
+                                        android:id="@+id/rbtnMode3" />
+                                    <RelativeLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="@dimen/ibtn_mode_space_width_weight">
+                                    </RelativeLayout>
+
+
+                                    <ImageButton
+                                        android:layout_width="0dp"
+                                        android:layout_weight="@dimen/ibtn_mode_width_weight"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/colorTransparent"
+                                        android:id="@+id/rbtnMode4" />
+                                    <RelativeLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="@dimen/ibtn_mode_space_width_weight">
+                                    </RelativeLayout>
+
+
+                                    <ImageButton
+                                        android:layout_width="0dp"
+                                        android:layout_weight="@dimen/ibtn_mode_width_weight"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/colorTransparent"
+                                        android:id="@+id/rbtnMode5" />
+                                    <RelativeLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="@dimen/ibtn_mode_space_width_weight">
+                                    </RelativeLayout>
+
+                                </LinearLayout>
+
+
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/ivTagInMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+
+        <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+
+
+</LinearLayout>

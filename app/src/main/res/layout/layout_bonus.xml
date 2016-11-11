@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/tmpl_bonus"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.17">
+
+        <TextView
+            android:id="@+id/tvNameInBonus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:text="New Text" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/ibtnHomeInBonus"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="start"
+                android:layout_weight="0.1"
+                android:background="@color/colorTransparent" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"/>
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="0.32"
+                android:layout_height="match_parent"
+                android:id="@+id/ibtnBonusInBonus"
+                android:background="@color/colorTransparent"/>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.17">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.82"/>
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="0.12"
+                android:layout_height="match_parent"
+                android:id="@+id/ibtnNextInBonus"
+                android:background="@color/colorTransparent"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tvCounterInBonus"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent" android:layout_height="match_parent"-->
+    <!--android:id="@+id/tmpl_bonus">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="New Text"-->
+        <!--android:id="@+id/tvNameInBonus"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="New Text"-->
+        <!--android:id="@+id/tvCounterInBonus"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="italic"-->
+        <!--android:layout_marginRight="50dp"-->
+        <!--android:layout_marginEnd="50dp"-->
+        <!--android:layout_marginBottom="7dp"/>-->
+
+    <!--<ImageButton-->
+        <!--android:layout_marginLeft="@dimen/ibtn_home_left_margin"-->
+        <!--android:layout_marginTop="@dimen/ibtn_home_top_margin"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/ibtnHomeInBonus"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:background="@color/colorTransparent"-->
+        <!--android:src="@drawable/img_tr128"/>-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/ibtnNextInBonus"-->
+        <!--android:layout_above="@+id/tvCounterInBonus"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginBottom="70dp"-->
+        <!--android:layout_marginRight="@dimen/ibtn_next_right_margin"-->
+        <!--android:background="@color/colorTransparent"-->
+        <!--android:src="@drawable/img_tr175"-->
+        <!--/>-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/ibtnBonusInBonus"-->
+        <!--android:layout_toRightOf="@+id/ibtnHomeInBonus"-->
+        <!--android:layout_toEndOf="@+id/ibtnHomeInBonus"-->
+        <!--android:layout_marginLeft="65dp"-->
+        <!--android:layout_marginStart="65dp"-->
+        <!--android:layout_below="@+id/ibtnHomeInBonus"-->
+        <!--android:background="@color/colorTransparent"-->
+        <!--android:src="@drawable/img_tr512x128"/>-->
+<!--</RelativeLayout>-->

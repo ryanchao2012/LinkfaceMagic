@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="ibtn_home_top_margin">10dp</dimen>
+    <dimen name="ibtn_home_left_margin">10dp</dimen>
+    <dimen name="ibtn_next_right_margin">64dp</dimen>
+    <dimen name="ibtn_next_bottom_margin">50dp</dimen>
+    <dimen name="rbtn_mode_space_margin">50dp</dimen>
+    <dimen name="btn_width_homepage">900dp</dimen>
+    <dimen name="btn_height_homepage">90dp</dimen>
+    <dimen name="text_size_homepage">48sp</dimen>
+    <dimen name="left_margin_homepage">48dp</dimen>
+    <dimen name="top_margin_homepage">93dp</dimen>
+    <dimen name="btn_space_homepage">12dp</dimen>
+    <dimen name="ibtn_width_128">128dp</dimen>
+    <item name="ibtn_home_height_weight" format="float" type="dimen">0.20</item>
+    <item name="ibtn_home_space_height_weight" format="float" type="dimen">0.02</item>
+    <item name="ibtn_mode_width_weight" format="float" type="dimen">0.16</item>
+    <item name="ibtn_mode_space_width_weight" format="float" type="dimen">0.04</item>
+    <dimen name="info_font_size">24sp</dimen>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <usb-device vendor-id="1240" product-id="63"/>  <!-- Custom HID demo -->
+    <!--<usb-device vender-id="3823" product-id="1"/>     &lt;!&ndash;TouchPad&ndash;&gt;-->
+</resources>
